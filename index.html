@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Task Tracker</h1>
+        <p class="subtitle">Organize your daily learning tasks.</p>
+
+        <div class="add-task-section">
+            <input type="text" id="taskInput" placeholder="Enter your task e.g. Complete JavaScript assignment">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <div class="counter">
+            Total: <span id="totalCount">0</span> | Pending: <span id="pendingCount">0</span>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
